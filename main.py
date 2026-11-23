@@ -1,8 +1,3 @@
-nombre = "Dairo Cruz"
-curso = "3D°"
-
-def programa():
-    print("Bienvenido", nombre, curso)
-    pregunta = input("Cual es tu lenguaje de programación favorito? ")
-    print(pregunta)
-programa()
+n, c = "Dairo Cruz", "3D°"
+print("Bienvenido", n, c)
+print(input("¿Cuál es tu lenguaje de programación favorito? "))
